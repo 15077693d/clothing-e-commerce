@@ -1,0 +1,35 @@
+
+1. destructure {}:
+ {sections.map(({title, imageUrl, id}) => <MenuItem key={id} title={title} />)}
+    ==
+  {sections.map((section) => <MenuItem key={section.id} title={section.title} />)}
+ 
+  ...someWords:
+  bring key  vlaue to others
+2. overflow: hidden:
+-> scale up and gidden in previous div
+
+3. position absolute:
+-> don't let other div to affect position
+
+4. Router is so hard in single page...
+-> in react-router-dom it's ok!
+a. Route: exact, path
+b. Switch: only one router
+c. BrowserRouter: in index.js 
+d. Link = a but a is reronder all page
+<a href="/2">a go two</a><Link to="/2">Go two</Link>
+
+5. props in Route
+
+a. history -> can push new end point
+<button onClick={()=> props.history.push('/2')}>Go Page 2</button>
+b. location...
+c. match can get /:paras  path
+
+6. withRouter is amazing
+
+e. Route's history only in it child normalliy in app
+f. I can't get match/ history except use withRouter 
+
+7. <Array>.filter(element,index)
