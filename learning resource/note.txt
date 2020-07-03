@@ -33,3 +33,8 @@ e. Route's history only in it child normalliy in app
 f. I can't get match/ history except use withRouter 
 
 7. <Array>.filter(element,index)
+
+8. children: something in side parent can be html, textContent
+
+9. firebase:
+with firebase no backend...
